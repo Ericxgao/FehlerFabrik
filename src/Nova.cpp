@@ -10,7 +10,7 @@
 #include <array>
 
 // Each sample buffer is 2097152 samples long - 47 seconds at 44.1KHz
-static const int bufferSize = 1 << 21;
+static const int bufferSize = 1 << 19;
 
 // struct Sequencer
 // {
